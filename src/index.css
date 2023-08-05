@@ -32,3 +32,12 @@ main{
 .product-info {
   padding: 1rem;
 }
+
+.rating span {
+  color: #ffc000;
+}
+
+.btn-primary {
+  background-color: #202de4;
+  color: #f0f0f0;
+}
