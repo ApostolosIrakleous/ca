@@ -41,3 +41,7 @@ main{
   background-color: #202de4;
   color: #f0f0f0;
 }
+
+.img-large {
+  max-width: 100%;
+}

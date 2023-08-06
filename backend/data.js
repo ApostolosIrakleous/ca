@@ -14,11 +14,11 @@ const data = {
       },
       {
         name: 'Greek gift No2',
-        slug: 'various Greek gifts',
+        slug: 'various Greek gifts2',
         category: 'Gifts',
         image: '/images/p2.jpg',
         price: 150,
-        countInStock: 20,
+        countInStock: 0,
         brand: 'Greece',
         rating: 4.0,
         numReviews: 10,
@@ -26,7 +26,7 @@ const data = {
       },
       {
         name: 'Greek gift No3',
-        slug: 'various Greek gifts',
+        slug: 'various Greek gifts3',
         category: 'Gifts',
         image: '/images/p3.jpg',
         price: 80,
@@ -38,7 +38,7 @@ const data = {
       },
       {
         name: 'Greek gift No4',
-        slug: 'various Greek gifts',
+        slug: 'various Greek gifts4',
         category: 'Gifts',
         image: '/images/p4.jpg',
         price: 90,
