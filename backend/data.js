@@ -1,7 +1,7 @@
 const data = {
     products: [
       {
-        _id:'1',
+        //_id:'1',
         name: 'Greek gift No1',
         slug: 'various Greek gifts',
         category: 'Gifts',
@@ -14,7 +14,7 @@ const data = {
         description: 'various Greek products',
       },
       {
-        _id:'2',
+        //_id:'2',
         name: 'Greek gift No2',
         slug: 'various Greek gifts2',
         category: 'Gifts',
@@ -27,7 +27,7 @@ const data = {
         description: 'various Greek products',
       },
       {
-        _id:'3',
+        //_id:'3',
         name: 'Greek gift No3',
         slug: 'various Greek gifts3',
         category: 'Gifts',
@@ -40,7 +40,7 @@ const data = {
         description: 'various Greek products',
       },
       {
-        _id:'4',
+        //_id:'4',
         name: 'Greek gift No4',
         slug: 'various Greek gifts4',
         category: 'Gifts',
