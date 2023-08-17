@@ -19,6 +19,7 @@ import SignupScreen from './screens/SignupScreen';
 import PaymentMethodScreen from './screens/PaymentMethodScreen';
 import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import OrderScreen from './screens/OrderScreen';
+import OrderHistoryScreen from './screens/OrderHistoryScreen';
 
 function App() {
   const { state ,dispatch: ctxDispatch} = useContext(Store);
@@ -40,7 +41,9 @@ function App() {
               <LinkContainer to="/">
                 <Navbar.Brand>Greek Gifts</Navbar.Brand>
               </LinkContainer>
-              <Nav className="me-auto">
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto  w-100  justify-content-end">
                 <Link to="/cart" className="nav-link">
                   Cart
                   {cart.cartItems.length > 0 && (
@@ -72,6 +75,7 @@ function App() {
                   </Link>
                 )}
               </Nav>
+              </Navbar.Collapse>
             </Container>
           </Navbar>                                       
         
@@ -86,6 +90,7 @@ function App() {
           <Route path="/signup" element={<SignupScreen />} />
           <Route path="/placeorder" element={<PlaceOrderScreen />} />
           <Route path="/order/:id" element={<OrderScreen />}></Route>
+          <Route path="/orderhistory" element={<OrderHistoryScreen />}              ></Route>
           <Route path="/shipping" element={<ShippingAddressScreen />}              ></Route>              
           <Route path="/payment" element={<PaymentMethodScreen />}></Route>
           <Route path ="/" element={<HomeScreen/>} />
