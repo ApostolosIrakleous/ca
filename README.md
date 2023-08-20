@@ -19,7 +19,7 @@ $ npm install
 $ npm start
 
 ### `Run Frontend`
-# open new terminal
+## open new terminal
 $ cd ca (frontend)
 $ npm install
 $ npm start
