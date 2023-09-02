@@ -13,6 +13,7 @@
 - 1.Overview
 - 2.Goal
 - 3.Getting Started
+- 4.Contributions
 
 ### Overview
 Creating an Information System of an e-Commerce web application for a company that sells Greek products as a gift hamper. The method used to create this application is MERN stack, that is a web development framework made up of the stack of MongoDB, Express. js, React. js, and Node.js. As any programming language was free to use for this assignment, I choose the above, to challenge myself for the creation of the information system.
@@ -50,7 +51,39 @@ $ npm --version (to check my npm version)
 # 3. Getting Started with Create React App
 While we have VS code open, start a command line than create a folder where the app will be stored, type the command mkdir ca (where my app will be store)(we can change the title later) than we will go inside my folder (type) cd ca and create the app by typing the 
 command npx create-react-app than by typing npm start the default broswer will open automatically the react app.(local host.3000). We can now change the header and stard coding!
-For this assignment and proof of working with the project, we need to create a github folder, to push and commit changes of our code,plus sharing it to others. to do that we have to options: on source control button see image ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/01a0049f-0d20-4abd-93ec-2b0cb5b55cdb) either initialize repository or publish to Github.You need to create a Github account.
+For this assignment and proof of working with the project, we need to create a github folder, to push and commit changes of our code,plus sharing it to others. to do that we have two options: on source control button see image ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/01a0049f-0d20-4abd-93ec-2b0cb5b55cdb) either initialize repository or publish to Github.You need to create a Github account.
+
+
+
+# 4. Contributions
+### 4.1 `Adding page routing`
+Using npm i react-router-dom is an npm package that enables you to implement dynamic routing in a web app. It allows you to display pages and allow users to navigate them. It is a fully-featured client and server-side routing library for React. React Router Dom is used to build single-page applications i.e. applications that have many pages or components but the page is never refreshed instead the content is dynamically fetched based on the URL. This process is called Routing and it is made possible with the help of React Router Dom.
+routes created are:
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/55aceb9c-e699-4af8-92a2-edeb41997ccf)
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/e38207ad-369b-42df-8be8-6bb742df5962)
+
+### `Create Node.JS Server` Backend
+Node.js (Node) is an open source, cross-platform runtime environment for executing JavaScript code. Node is used extensively for server-side programming, making it possible to use JavaScript for client-side and server-side code.
+install `npm init` after creating a backend folder in the main project.
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/7aa2e39b-8403-4b41-a8ab-b6ccbbef1565) ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/f069bb4e-7113-4d36-ba75-a9ec6a2a7cfc)
+
+create a file called server.js install ` npm install express`
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/cb918ba8-0589-4c24-9dad-d08d18b0411d)
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/5e982aa2-2c26-4139-9ca5-21cdcc883c8a)
+
+### Seed Users and Products
+Run this on browser: http://localhost:5000/api/seed
+It returns admin email and password and sample products
+### to restart server we need to istall:
+### `npm intall nodemon --save -dev`
+this is for wheneever we do a change in the database the server will restart and apply the changes.
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/8d16f38d-e83c-4566-845c-42a8d0257d49)
+### `Run Backend`
+$ cd ca/backend
+$ npm start
+#### if changes done in the app and file saved you will get this:
+![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/4354bde3-f3e1-4f91-bc99-77bf4745dbde)
+
 
 #### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Clone repo
@@ -61,25 +94,22 @@ Atlas Cloud MongoDB
 Create database at https://cloud.mongodb.com
 In .env file update MONGODB_URI=mongodb+srv://your-db-connection
 
-## Available Scripts
+## How to Run the application
 
 In the project directory, you can run:
 
-### `Run Backend`
-$ cd ca/backend
-$ npm install
-$ npm start
+
 
 ### `Run Frontend`
 ## open new terminal
 $ cd ca (frontend)
-$ npm install
 $ npm start
+### other helpfull informations
 
-### Seed Users and Products
-Run this on browser: http://localhost:5000/api/seed
-It returns admin email and password and sample products
 
 ### Admin Login
 Run http://localhost:3000/signin
 Enter admin email and password and click signin
+# References
+- https://www.geeksforgeeks.org/what-is-react-router-dom/
+- https://www.youtube.com/@CodingwithBasir
