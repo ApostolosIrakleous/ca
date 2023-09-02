@@ -23,6 +23,23 @@ The aim of this project is to design and build an e-Commerce web application for
 The objective of the project is to provide a web application where customers can browse, select,(add to basket) and purchase a product. New users can register for an account. Customer order history can be viewed. Customers will also be able to browse items(search) in the catalog then select, add to a shopping cart and checkout the items for purchase.Enter details for shipping than the shopping functionality with integration with a payment gateway. 
 Products will load fast and be responsive on all types of devices and scalable as more products are added or edit/delete by admin.Admin will be able to see order status /history/payment able to mark delivery.
 ### 2.3 Tools installed
+This project completed on visual studio code,in windows oparating system. Some tools had to be istalled prior starting this assignment, like nodejs for windows from this page: https://nodejs.org/en/download.
+Next tool installed is Git for windows oparating system from https://git-scm.com/ so in my project i can use gitbash in windows(VSC)terminal.(like Linux line command).
+
+Version of tools used in my project
+$ git --version (to check my git version)
+git version 2.41.0.windows.3
+
+$ node --version (to check my node version)
+v18.15.0
+
+$ npm --version (to check my npm version)
+9.5.0
+
+### 2.4 Tools installed on Visual Studio Code (VSC)
+- ESLint
+- JavaScript (ES6) code snippets
+- VS code ES7 React/Redux/GraphQL/React-Native snippets
 
 
 
