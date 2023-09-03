@@ -55,6 +55,8 @@ For this assignment and proof of working with the project, we need to create a g
 - Axios ($ npm install axios)
 - React-bootstrap (npm install react-bootstrap bootstrap)
 - Nodemon (npm intall nodemon --save -dev)
+- Mongoose(npm install mongoose)
+- Dotenv(npm install dotenv)
 
 
 
@@ -99,16 +101,25 @@ It returns admin email and password and sample products
 ### 4.5 Components
 A component is an independent, reusable bit of code which divides the UI(user inderface) into smaller pieces. For example, if we were building the UI of React website using Reactjs we can break its UI into smaller parts,Instead of building the whole UI under one single file like HTML, we can divide all the sections into smaller independent pieces. In other words, these are components. Each component will go into its own JavaScript file. 
 - ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/07440733-192d-497d-b6ba-5889232141f1)
+#### Use of React Context 
+is a method to pass props from parent to child component(s), by storing the props in a store(similar in Redux) and using these props from the store by child component(s) without actually passing them manually at each level of the component tree.
 
 
-#### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Clone repo
-git@github.com:ApostolosIrakleous/ca.git
 
-### `Setup MongoDB`
+
+### 4.6 `Setup MongoDB`
 Atlas Cloud MongoDB
 Create database at https://cloud.mongodb.com
-In .env file update MONGODB_URI=mongodb+srv://your-db-connection
+Connecting to MongoDB
+First, we need to define a connection. If your app uses only one database, you should use mongoose.connect. If you need to create additional connections, use mongoose.createConnection.
+
+Once connected, the open event is fired on the Connection instance. If you're using mongoose.connect, the Connection is mongoose.connection. Otherwise, mongoose.createConnection return value is a Connection.
+In .env file update MONGODB_URI=mongodb+srv://your-db-connection. Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/b9ad1e13-ec1f-42a7-aa79-2b19d542c22d)
+
+
+### 5.0 User inderface and User Experience
+The user interface (UI) is the point of human-computer interaction and communication in a device. This can include display screens, keyboards, a mouse and the appearance of a desktop. It is also the way through which a user interacts with an application or a website.User Experience refers to the feeling users experience when using a product, application, system, or service. It is a broad term that can cover anything from how well the user can navigate the product, how easy it is to use, how relevant the content displayed is etc.
 
 ## How to Run the application
 
@@ -122,15 +133,25 @@ $ npm start
 ## open new terminal
 $ cd ca (frontend)
 $ npm start
-### other helpfull informations
 
+### other helpfull informations
 
 ### Admin Login
 Run http://localhost:3000/signin
 Enter admin email and password and click signin
+
+
+
+
+
+
+
+#### Clone repo git@github.com:ApostolosIrakleous/ca.git
 # References
 - https://www.geeksforgeeks.org/what-is-react-router-dom/
 - https://www.youtube.com/@CodingwithBasir
 - https://www.techtarget.com/whatis/definition/Nodejs#:~:text=js%20(Node)%3F-,Node.,to%20learn%20an%20additional%20language.
 - https://www.upgrad.com/blog/http-requests-with-axios-npm/
 - https://react-bootstrap.netlify.app/
+- https://www.techtarget.com/whatis/definitions/S
+- https://www.productplan.com/glossary/user-experience/#:~:text=Definition%3A%20User%20Experience%20refers%20to,the%20content%20displayed%20is%20etc.
