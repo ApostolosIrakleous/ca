@@ -78,7 +78,7 @@ create a file called server.js install ` npm install express`
 
 ### 4.3 Restart server 
 ### `npm intall nodemon --save -dev`
-this istall is for when ever we do a change in the database the server will restart and apply the changes.
+this install is for when ever we do a change in the database the server will restart and apply the changes.
 - ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/8d16f38d-e83c-4566-845c-42a8d0257d49)
 #### if changes done in the app and file saved you will get this:
 ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/4354bde3-f3e1-4f91-bc99-77bf4745dbde)
@@ -121,7 +121,7 @@ In .env file update MONGODB_URI=mongodb+srv://your-db-connection. Dotenv is a ze
 ### 5.0 User inderface and User Experience
 The user interface (UI) is the point of human-computer interaction and communication in a device. This can include display screens, keyboards, a mouse and the appearance of a desktop. It is also the way through which a user interacts with an application or a website.User Experience refers to the feeling users experience when using a product, application, system, or service. It is a broad term that can cover anything from how well the user can navigate the product, how easy it is to use, how relevant the content displayed is etc.
 
-## How to Run the application
+## 5.1 How to Run the application
 
 In the project directory, you can run:
 
@@ -133,6 +133,58 @@ $ npm start
 ## open new terminal
 $ cd ca (frontend)
 $ npm start
+
+### 5.2 Homescreen
+This is what a user as an admin looks when the application starts, a navigation bar on the left, search bar, cart, logged user, a display of featured products where you can interact with:
+![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/e64e8ea7-bc50-4056-a115-2f6bdfa939eb)
+Inside of a product page you can see the name of the product , the description, the price, reviews, status, cart button, you can interact with all of them.
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/04676507-ee0d-4f0f-859b-ae94c7c6f1bd)
+
+#### 5.3 As an admin user when you click admin:
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/e01eb583-01e0-4555-9f89-d356f878955b)
+
+- you can see admin's dashboard with the sales of the shop.
+![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/82bd96f6-07ca-40f3-a5e4-d257955b8233)
+
+- Product page where as an admin you can created a new product, edit or delete one!
+![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/3cd14e8d-971e-4548-97d1-76181f30633a)
+
+
+
+- you will get the above notification when a successfull change is made.
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/488256d7-e07a-4b93-90ca-2d58fd6a5c6b)
+
+- Order screen withs details of a costumer's order.
+![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/bfbe67ad-f635-4946-b5b1-f9c3d7da6e6b)
+
+- User screen where as an admin, you can see the users id using the app. you can delete or edit same
+![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/d4bdf26f-7939-4650-92a3-e6a4383180b4)
+
+
+### 5.4 As a costumer user
+when you add a product to the cart will look like this:![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/c5e7518c-a825-4185-81b9-3a642e07a87a)
+- Than will be 2 options sign up or sign in:
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/bc3f934b-3ce7-4426-9ec4-fbf97dc1910b)
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/106c9863-47ea-429b-857f-bc1fb18e26c4)
+
+A shopping cart screen where you can interact with: add/ remove item , delete order and checkout
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/f8ff099c-b5be-4e2e-9504-814b9e522e39)
+
+A Shipping address screen after checkout :
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/2ef88a05-0c54-41bf-b2ef-cadcc8f87e1a)
+
+A Payment method screen and preview order screen:
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/f5fb98a8-7324-4052-b51a-02c400c805dc)
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/7f67168d-64ad-47be-b613-2f4bedc0aae7)
+
+Order summary screen:
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/0e9d82f7-b3b2-46b5-acb5-f45c06cbe5b8)
+
+If you pay the order you will get a paid notification"
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/fafb4d09-606e-4ea8-96bf-1b05600e5db1)
+
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/2406e82a-35a4-46cb-ab44-0b546a312b22)
+
 
 ### other helpfull informations
 
