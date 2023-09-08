@@ -14,6 +14,8 @@
 - 2.Goal
 - 3.Getting Started
 - 4.Building
+- 5.User inderface and User Experience
+- 6 References
 
 ### Overview
 Creating an Information System of an e-Commerce web application for a company that sells Greek products as a gift hamper. The method used to create this application is MERN stack, that is a web development framework made up of the stack of MongoDB, Express. js, React. js, and Node.js. As any programming language was free to use for this assignment, I choose the above, to challenge myself for the creation of the information system.
