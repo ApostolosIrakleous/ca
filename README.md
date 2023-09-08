@@ -185,21 +185,34 @@ If you pay the order you will get a paid notification"
 
 - ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/2406e82a-35a4-46cb-ab44-0b546a312b22)
 
+As costumer if you press profile user name:![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/b40db4c6-935d-4c7e-b8bb-eacae7afe515)
+
+-password can be updated
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/74611ea5-9e43-4253-a871-f9be9da410be)
+
+
+After paying an order this is what costumer gets in the screen:
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/c29855c3-4545-43dc-9b61-367171bd52c0)
+- Order history can be reviewed:
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/bd998c85-5156-4888-8155-cb0a89f10c29)
+- Sign out.
+
+### 5.5 Side navbar and search box
+- ![image](https://github.com/ApostolosIrakleous/ca/assets/132573422/0cba3fce-2434-4516-a0fe-fe578aa85b96)
+- side navabar where you can choose category of product.
+- serachbox where you can search for a product.
 
 ### other helpfull informations
 
 ### Admin Login
 Run http://localhost:3000/signin
-Enter admin email and password and click signin
-
-
-
+Enter admin email and password and click signin (see data.js)
 
 
 
 
 #### Clone repo git@github.com:ApostolosIrakleous/ca.git
-# References
+# 6 References
 - https://www.geeksforgeeks.org/what-is-react-router-dom/
 - https://www.youtube.com/@NetNinja (frontend, how to built with express and mongo db)
 - https://www.youtube.com/@freecodecamp (MERN Stack Tutorial)
