@@ -146,7 +146,7 @@ error ?
                             numReviews={product.numReviews}
                         ></Rating>
                     </ListGroup.Item>
-                    <ListGroup.Item>Price : ${product.price}</ListGroup.Item>
+                    <ListGroup.Item>Price : €{product.price}</ListGroup.Item>
                     <ListGroup.Item>
                     Description:
                     <p>{product.description}</p>
@@ -160,7 +160,7 @@ error ?
                     <ListGroup.Item>
                     <Row>
                     <Col>Price:</Col>
-                    <Col>${product.price}</Col>
+                    <Col>€{product.price}</Col>
                   </Row>
 
                     </ListGroup.Item>
